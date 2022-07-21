@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="top-wrapper">
+    <div class="container">
+        <h1>TITLE</h1>
+        <p>補足説明</p>
+    </div>
+</div>
+
+
+<div class="buttons">
+    <div class="container">
+        <div class="btn">
+            <span>アカウント登録</span>
+        </div>
+        <div class="btn">
+            <span>服装一覧</span>
+        </div>
+    </div>
+</div>
+
+<div class="regis">
+    <div class="container">
+        <div class="btn" >
+            <span>今日の服装を登録しよう！</span>
+        </div>
+    </div>
+</div>
+
+<div class="search">
+    <div class="container">
+        <h3>今日に適した服装は？</h3>
+        <form th:action="@{/search}" method="get">
+            <input type="number">
+            <input type="submit" value="検索">
+        </form>
+    </div>
+</div>
+</body>
+</html>
