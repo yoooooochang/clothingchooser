@@ -6,4 +6,11 @@
     display: flex;
     justify-content: center;
 
+    align-items: center;
+}
+.btn-gr p{
+    align-items: center;
+}
+.search{
+    
 }
