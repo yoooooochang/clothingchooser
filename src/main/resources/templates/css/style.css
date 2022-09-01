@@ -1,3 +1,9 @@
 .main{
     text-align: center;
 }
+
+.btn-gr{
+    display: flex;
+    justify-content: center;
+
+}
